@@ -1,3 +1,3 @@
 FROM openjdk:22
-COPY ./target/greetingapp.jar greetingapp.jar
-CMD ["java","-jar","greetingapp.jar"]
+COPY ./target/finalas.jar finalas.jar
+CMD ["java","-jar","finalas.jar"]
